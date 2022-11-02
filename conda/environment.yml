@@ -1,0 +1,34 @@
+name: dbfun
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+#jupyter
+  - jupyterlab
+  - jupyter-server-proxy
+  - jupyter_core
+  - jupyter_server
+  - widgetsnbextension
+  - dask-labextension
+  - nodejs
+  - notebook
+  - nbclassic
+  - nbclient
+    #- notebook=6.4.0
+    #- nbclassic=0.3.1
+    #- nbclient=0.5.3
+#xarray-related
+  - rioxarray
+#other 
+  - fsspec
+  - s3fs
+  - erddapy
+  - xmltodict
+  - folium
+#aws
+  - boto3
+#ODC
+  #- datacube
+  #- odc-stac
+# tony Items
+  - pandas
