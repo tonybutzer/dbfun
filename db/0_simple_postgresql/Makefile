@@ -12,3 +12,7 @@ run:
 getsamples:
 	wget https://ftp.postgresql.org/pub/projects/pgFoundry/dbsamples/world/dbsamples-0.1/dbsamples-0.1.tar.gz -O /tmp/db.tar.gz
 	tar tvf /tmp/db.tar.gz
+
+
+psql:
+	psql -U postgres -p 5432 -h localhost
